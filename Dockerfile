@@ -12,6 +12,4 @@ WORKDIR /var/www
 
 COPY . .
 
-RUN composer install
-
 RUN chown -R www-data:www-data /var/www
